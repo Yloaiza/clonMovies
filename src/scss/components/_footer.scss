@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  margin: 5%; 
+}
+
+.part {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: start;
+  font-size: 15px;
+}
+
+.icons {
+  justify-content: center;
+  align-items: center;
+  color: $iconsColor;
+}
+.linea-horizontal {
+  width: 90%;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+.iconsUbi {
+  color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  margin: -90px;
+  background-color: rgb(255, 49, 49);
+  padding: 12px;
+}
+
+p {
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .part {
+    flex: 1 100%; 
+    margin: 0;
+    
+  }
+
+  h1 {
+    margin: 0; 
+  }
+}

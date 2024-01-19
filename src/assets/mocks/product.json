@@ -1,0 +1,22 @@
+{
+    "product": 
+    {
+      "title": "CHAQUETA DE LA NASA MULTICOLOR CON CIERRE PARA HOMBRE",
+      "subtitle": "NASA",
+      "id_ref": "237474-110601-S",
+      "dispo": 6,
+      "price": 249.990 ,
+      "sizes": ["S", "M", "L", "XL"],
+      "selector": [1, 2, 3, 4, 5],
+      "boton_agg": "Agregar a mi bolsa",
+      "imagenes": [
+        "https://moviesshopco.vtexassets.com/arquivos/ids/175525-1600-1600?v=638343813380430000&width=1600&height=1600&aspect=true",
+        "https://moviesshopco.vtexassets.com/arquivos/ids/175526-1600-1600?v=638343813692600000&width=1600&height=1600&aspect=true",
+        "https://moviesshopco.vtexassets.com/arquivos/ids/175527-1600-1600?v=638343813918430000&width=1600&height=1600&aspect=true",
+        "https://moviesshopco.vtexassets.com/arquivos/ids/175528-1600-1600?v=638343814091100000&width=1600&height=1600&aspect=true",
+        "https://moviesshopco.vtexassets.com/arquivos/ids/175530-1600-1600?v=638343814525630000&width=1600&height=1600&aspect=true",
+        "https://moviesshopco.vtexassets.com/arquivos/ids/175614-1600-1600?v=638349695150300000&width=1600&height=1600&aspect=true"
+      ]
+    }
+  }
+  

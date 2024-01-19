@@ -1,0 +1,224 @@
+.link-up {
+  display: flex; 
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+  margin-left: 150px;
+  text-decoration: none; 
+}
+
+.link-up span {
+  display: flex;
+  align-items: center; 
+}
+
+.link-up b {
+  color: black;
+  margin-left: 3px; 
+}
+
+/* Slider Centro */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.izquierda {
+  float: left;
+  width: 60%;
+  padding: 30px;
+  background-color: white;
+}
+
+.slider {
+  width: 100%; 
+}
+
+.slide {
+  width: 100%; 
+}
+
+.slide img {
+  width: 90%;
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.slide:hover img {
+  transform: scale(
+    1.5
+  ); 
+}
+//sliderLeft
+.containerLeft{
+  margin-left: 60px;
+  width: 39%;
+  height: 10px;
+  .sliderLeft {
+    width: 32%; 
+  }
+  
+  .slideLeft {
+    width: 25%; 
+  }
+  
+  .slideLeft img {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+//flechas
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: blue; 
+  width: 10px; 
+  height: 30px; 
+  top: 50%;
+  cursor: pointer;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: rgb(8, 8, 75);
+}
+
+// derecha
+
+.derecha {
+  float: right;
+  width: 35%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+  
+  .ref {
+    color: rgb(70, 69, 69);
+  }
+  .price {
+    font-size: 20px;
+  }
+  .red {
+    color: rgb(189, 31, 31);
+    b {
+      color: rgb(255, 0, 0);
+    }
+  }
+  .sizes {
+    justify-content: space-between;
+    button {
+      background-color: white;
+      color: black;
+      padding: 5px 10px; 
+      font-size: 13px; 
+      border: none; 
+      cursor: pointer; 
+      transition: background-color 0.3s ease; 
+    }
+
+    button:hover {
+      color: white;
+      background-color: $navbarColor;
+    }
+  }
+
+  .num {
+    margin-top: 20px;
+    justify-content: start;
+    display: flex;
+    font-size: 25px;
+    input{
+      width: 50px;
+      border: none;
+      text-align: center;
+    }
+
+    button {
+      background-color: white; 
+      color: black; 
+      padding: 1px 15px; 
+      font-size: 20px; 
+      border: none;
+      cursor: pointer; 
+      transition: background-color 0.3s ease; 
+    }
+    button:hover {
+      color: white;
+      background-color: $navbarColor; 
+    }
+
+    .agg {
+        font-size: 16px;
+      background-color: $navbarColor;
+      color: white;
+    }
+  }
+  .contenedor {
+    margin-top: 40px;
+
+  }
+
+  .flecha {
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    color: black;
+    letter-spacing: 6px;
+  }
+  
+  .input{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+    color: grey;
+  }
+  .dispButton{
+    font-size: 20px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+  }
+  .desplegable{
+    margin-top: 3px;
+    font-size: 13px;
+    
+  }
+
+}
+
+
+
+//responsive
+
+@media (max-width: 768px) {
+  .izquierda,
+  .derecha {
+    width: 100%;
+    float: none;
+  }
+
+  .link-up{
+    display: flex; 
+    margin-top: 40px;
+    text-align: center;
+    font-size: 8px;
+    color: black;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  .containerLeft{
+    display: none;
+  }
+}
