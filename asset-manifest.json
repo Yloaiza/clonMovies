@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Yloaiza/clonMovies/static/css/main.b1d950ac.css",
+    "main.js": "/Yloaiza/clonMovies/static/js/main.6dd6c87e.js",
+    "static/media/off.png": "/Yloaiza/clonMovies/static/media/off.4b531dbe2835764ff7c4.png",
+    "static/media/icon.png": "/Yloaiza/clonMovies/static/media/icon.1cc965c724cf86b5e2f1.png",
+    "static/media/slick.svg": "/Yloaiza/clonMovies/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Yloaiza/clonMovies/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Yloaiza/clonMovies/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Yloaiza/clonMovies/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Yloaiza/clonMovies/index.html",
+    "main.b1d950ac.css.map": "/Yloaiza/clonMovies/static/css/main.b1d950ac.css.map",
+    "main.6dd6c87e.js.map": "/Yloaiza/clonMovies/static/js/main.6dd6c87e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1d950ac.css",
+    "static/js/main.6dd6c87e.js"
+  ]
+}
